@@ -1,34 +1,26 @@
 body {
-    font-family: Arial, sans-serif;
-    background: #f7f7f7;
-    margin: 0;
-    padding: 20px;
-}
-
-h1 {
-    font-size: 1.2rem;
-    margin-top: 30px;
-    margin-bottom: 10px;
+    font-family: monospace;
     color: #333;
 }
 
-.container {
-    display: flex;
-    gap: 10px;
-    margin-bottom: 30px;
-    padding: 15px;
-    background: #fff;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+h1 {
+    text-align: center;
+    margin:  20px 0 0 0;
+    font-size: 1.25em;
+    font-weight: normal;
 }
 
+.container {
+     max-width: 400px;
+     margin: 0 auto;
+     border: 1px solid #cccccc;
+     display: flex;
+}
 .item {
-    background: #4f8cff;
-    color: #fff;
-    padding: 20px 30px;
-    border-radius: 6px;
-    font-weight: bold;
+    margin: 5px;
+    background: tomato;
     text-align: center;
+    font-size: 1.5em;
     flex: 1;
 }
 
