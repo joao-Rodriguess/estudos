@@ -1,0 +1,41 @@
+.titulo{
+    text-align: center;
+    font-family: serif;
+    text-decoration: underline; /* Sublinha o texto */
+}
+
+body {
+    font-family: monospace;
+    color: #333;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0 0 0;
+    font-weight: normal;
+}
+
+.container {
+    display: flex; /* Ativa o flexbox */
+    border: 1px solid #ccc; /* Borda cinza clara */
+    margin: 0 auto; /* Remove margens padrão */
+    max-width: 420px; /* Largura máxima de 430px */
+}
+
+.stretch{
+    align-items: stretch;
+}
+
+
+.item{
+          
+    margin: 5px; /* Margem de 5px */
+    background: tomato; /* Fundo vermelho tomate */
+    text-align: center; /* Centraliza o texto */
+    font-size: 1.5em; /* Tamanho da fonte */
+    padding: 5px 5px; /* Espaçamento interno */
+}
